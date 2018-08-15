@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06312665C1D4E189C8D612CA /* libPods-InDream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */; };
+		3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDEF92123BCF40086C642 /* AppDelegate.m */; };
+		3D5FDEFD2123BCF40086C642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDEFC2123BCF40086C642 /* ViewController.m */; };
+		3D5FDF002123BCF40086C642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDEFE2123BCF40086C642 /* Main.storyboard */; };
+		3D5FDF022123BCF60086C642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF012123BCF60086C642 /* Assets.xcassets */; };
+		3D5FDF052123BCF60086C642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */; };
+		3D5FDF082123BCF60086C642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF072123BCF60086C642 /* main.m */; };
+		3D5FDF122123BCF60086C642 /* InDreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF112123BCF60086C642 /* InDreamTests.m */; };
+		3D5FDF1D2123BCF60086C642 /* InDreamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF1C2123BCF60086C642 /* InDreamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D5FDF0E2123BCF60086C642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5FDEED2123BCF40086C642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5FDEF42123BCF40086C642;
+			remoteInfo = InDream;
+		};
+		3D5FDF192123BCF60086C642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5FDEED2123BCF40086C642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5FDEF42123BCF40086C642;
+			remoteInfo = InDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D5FDEF52123BCF40086C642 /* InDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5FDEF82123BCF40086C642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D5FDEF92123BCF40086C642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D5FDEFB2123BCF40086C642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D5FDEFC2123BCF40086C642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D5FDEFF2123BCF40086C642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5FDF012123BCF60086C642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5FDF042123BCF60086C642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5FDF062123BCF60086C642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5FDF072123BCF60086C642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D5FDF0D2123BCF60086C642 /* InDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5FDF112123BCF60086C642 /* InDreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InDreamTests.m; sourceTree = "<group>"; };
+		3D5FDF132123BCF60086C642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5FDF182123BCF60086C642 /* InDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5FDF1C2123BCF60086C642 /* InDreamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InDreamUITests.m; sourceTree = "<group>"; };
+		3D5FDF1E2123BCF60086C642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.release.xcconfig"; sourceTree = "<group>"; };
+		905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5FDEF22123BCF40086C642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06312665C1D4E189C8D612CA /* libPods-InDream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5FDF0A2123BCF60086C642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5FDF152123BCF60086C642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5FDEEC2123BCF40086C642 = {
+			isa = PBXGroup;
+			children = (
+				3D5FDEF72123BCF40086C642 /* InDream */,
+				3D5FDF102123BCF60086C642 /* InDreamTests */,
+				3D5FDF1B2123BCF60086C642 /* InDreamUITests */,
+				3D5FDEF62123BCF40086C642 /* Products */,
+				E87CFC2821250D750043BBCB /* Pods */,
+				C9D0A6BD6E7578C9B107CF7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5FDEF62123BCF40086C642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDEF52123BCF40086C642 /* InDream.app */,
+				3D5FDF0D2123BCF60086C642 /* InDreamTests.xctest */,
+				3D5FDF182123BCF60086C642 /* InDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5FDEF72123BCF40086C642 /* InDream */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDEF82123BCF40086C642 /* AppDelegate.h */,
+				3D5FDEF92123BCF40086C642 /* AppDelegate.m */,
+				3D5FDEFB2123BCF40086C642 /* ViewController.h */,
+				3D5FDEFC2123BCF40086C642 /* ViewController.m */,
+				3D5FDEFE2123BCF40086C642 /* Main.storyboard */,
+				3D5FDF012123BCF60086C642 /* Assets.xcassets */,
+				3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */,
+				3D5FDF062123BCF60086C642 /* Info.plist */,
+				3D5FDF072123BCF60086C642 /* main.m */,
+			);
+			path = InDream;
+			sourceTree = "<group>";
+		};
+		3D5FDF102123BCF60086C642 /* InDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF112123BCF60086C642 /* InDreamTests.m */,
+				3D5FDF132123BCF60086C642 /* Info.plist */,
+			);
+			path = InDreamTests;
+			sourceTree = "<group>";
+		};
+		3D5FDF1B2123BCF60086C642 /* InDreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF1C2123BCF60086C642 /* InDreamUITests.m */,
+				3D5FDF1E2123BCF60086C642 /* Info.plist */,
+			);
+			path = InDreamUITests;
+			sourceTree = "<group>";
+		};
+		C9D0A6BD6E7578C9B107CF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87CFC2821250D750043BBCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */,
+				650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5FDEF42123BCF40086C642 /* InDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5FDF212123BCF60086C642 /* Build configuration list for PBXNativeTarget "InDream" */;
+			buildPhases = (
+				E247873DA3EE1B5FA30CFC25 /* [CP] Check Pods Manifest.lock */,
+				3D5FDEF12123BCF40086C642 /* Sources */,
+				3D5FDEF22123BCF40086C642 /* Frameworks */,
+				3D5FDEF32123BCF40086C642 /* Resources */,
+				B9F619CFF1AC5C5CC896E807 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InDream;
+			productName = InDream;
+			productReference = 3D5FDEF52123BCF40086C642 /* InDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5FDF0C2123BCF60086C642 /* InDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5FDF242123BCF60086C642 /* Build configuration list for PBXNativeTarget "InDreamTests" */;
+			buildPhases = (
+				3D5FDF092123BCF60086C642 /* Sources */,
+				3D5FDF0A2123BCF60086C642 /* Frameworks */,
+				3D5FDF0B2123BCF60086C642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5FDF0F2123BCF60086C642 /* PBXTargetDependency */,
+			);
+			name = InDreamTests;
+			productName = InDreamTests;
+			productReference = 3D5FDF0D2123BCF60086C642 /* InDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D5FDF172123BCF60086C642 /* InDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5FDF272123BCF60086C642 /* Build configuration list for PBXNativeTarget "InDreamUITests" */;
+			buildPhases = (
+				3D5FDF142123BCF60086C642 /* Sources */,
+				3D5FDF152123BCF60086C642 /* Frameworks */,
+				3D5FDF162123BCF60086C642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5FDF1A2123BCF60086C642 /* PBXTargetDependency */,
+			);
+			name = InDreamUITests;
+			productName = InDreamUITests;
+			productReference = 3D5FDF182123BCF60086C642 /* InDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5FDEED2123BCF40086C642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "med-vision";
+				TargetAttributes = {
+					3D5FDEF42123BCF40086C642 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3D5FDF0C2123BCF60086C642 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D5FDEF42123BCF40086C642;
+					};
+					3D5FDF172123BCF60086C642 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D5FDEF42123BCF40086C642;
+					};
+				};
+			};
+			buildConfigurationList = 3D5FDEF02123BCF40086C642 /* Build configuration list for PBXProject "InDream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5FDEEC2123BCF40086C642;
+			productRefGroup = 3D5FDEF62123BCF40086C642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5FDEF42123BCF40086C642 /* InDream */,
+				3D5FDF0C2123BCF60086C642 /* InDreamTests */,
+				3D5FDF172123BCF60086C642 /* InDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5FDEF32123BCF40086C642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5FDF052123BCF60086C642 /* LaunchScreen.storyboard in Resources */,
+				3D5FDF022123BCF60086C642 /* Assets.xcassets in Resources */,
+				3D5FDF002123BCF40086C642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5FDF0B2123BCF60086C642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5FDF162123BCF60086C642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9F619CFF1AC5C5CC896E807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InDream/Pods-InDream-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InDream/Pods-InDream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E247873DA3EE1B5FA30CFC25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InDream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5FDEF12123BCF40086C642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5FDEFD2123BCF40086C642 /* ViewController.m in Sources */,
+				3D5FDF082123BCF60086C642 /* main.m in Sources */,
+				3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5FDF092123BCF60086C642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5FDF122123BCF60086C642 /* InDreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5FDF142123BCF60086C642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5FDF1D2123BCF60086C642 /* InDreamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D5FDF0F2123BCF60086C642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5FDEF42123BCF40086C642 /* InDream */;
+			targetProxy = 3D5FDF0E2123BCF60086C642 /* PBXContainerItemProxy */;
+		};
+		3D5FDF1A2123BCF60086C642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5FDEF42123BCF40086C642 /* InDream */;
+			targetProxy = 3D5FDF192123BCF60086C642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D5FDEFE2123BCF40086C642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5FDEFF2123BCF40086C642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5FDF042123BCF60086C642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5FDF1F2123BCF60086C642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D5FDF202123BCF60086C642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5FDF222123BCF60086C642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				INFOPLIST_FILE = InDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medvision.InDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D5FDF232123BCF60086C642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				INFOPLIST_FILE = InDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medvision.InDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D5FDF252123BCF60086C642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				INFOPLIST_FILE = InDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medvision.InDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InDream.app/InDream";
+			};
+			name = Debug;
+		};
+		3D5FDF262123BCF60086C642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				INFOPLIST_FILE = InDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medvision.InDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InDream.app/InDream";
+			};
+			name = Release;
+		};
+		3D5FDF282123BCF60086C642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				INFOPLIST_FILE = InDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medvision.InDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InDream;
+			};
+			name = Debug;
+		};
+		3D5FDF292123BCF60086C642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				INFOPLIST_FILE = InDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medvision.InDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5FDEF02123BCF40086C642 /* Build configuration list for PBXProject "InDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5FDF1F2123BCF60086C642 /* Debug */,
+				3D5FDF202123BCF60086C642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5FDF212123BCF60086C642 /* Build configuration list for PBXNativeTarget "InDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5FDF222123BCF60086C642 /* Debug */,
+				3D5FDF232123BCF60086C642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5FDF242123BCF60086C642 /* Build configuration list for PBXNativeTarget "InDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5FDF252123BCF60086C642 /* Debug */,
+				3D5FDF262123BCF60086C642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5FDF272123BCF60086C642 /* Build configuration list for PBXNativeTarget "InDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5FDF282123BCF60086C642 /* Debug */,
+				3D5FDF292123BCF60086C642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5FDEED2123BCF40086C642 /* Project object */;
+}
