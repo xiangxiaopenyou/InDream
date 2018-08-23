@@ -16,6 +16,16 @@
 		3D5FDF082123BCF60086C642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF072123BCF60086C642 /* main.m */; };
 		3D5FDF122123BCF60086C642 /* InDreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF112123BCF60086C642 /* InDreamTests.m */; };
 		3D5FDF1D2123BCF60086C642 /* InDreamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF1C2123BCF60086C642 /* InDreamUITests.m */; };
+		3D5FDF2C2123C49C0086C642 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF2B2123C49C0086C642 /* Localizable.strings */; };
+		3D5FDF36212CFB380086C642 /* XPYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF35212CFB380086C642 /* XPYBaseModel.m */; };
+		3D5FDF39212D481E0086C642 /* XPYHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF38212D481E0086C642 /* XPYHTTPManager.m */; };
+		3D5FDF3C212D567D0086C642 /* XPYBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF3B212D567D0086C642 /* XPYBaseRequest.m */; };
+		3D5FDF42212D5B310086C642 /* XPYCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF40212D5B300086C642 /* XPYCommonDefines.m */; };
+		3D5FDF45212E80FC0086C642 /* IDLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF44212E80FC0086C642 /* IDLogin.storyboard */; };
+		3D5FDF49212E9CD50086C642 /* IDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF48212E9CD50086C642 /* IDLoginViewController.m */; };
+		3D5FDF4D212EA2C60086C642 /* IDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF4C212EA2C60086C642 /* IDLoginViewModel.m */; };
+		3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF50212EB7E30086C642 /* XPYUtilities.m */; };
+		3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF53212EBBDD0086C642 /* IDConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,26 @@
 		3D5FDF182123BCF60086C642 /* InDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5FDF1C2123BCF60086C642 /* InDreamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InDreamUITests.m; sourceTree = "<group>"; };
 		3D5FDF1E2123BCF60086C642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5FDF2B2123C49C0086C642 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3D5FDF34212CFB380086C642 /* XPYBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYBaseModel.h; sourceTree = "<group>"; };
+		3D5FDF35212CFB380086C642 /* XPYBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYBaseModel.m; sourceTree = "<group>"; };
+		3D5FDF37212D481E0086C642 /* XPYHTTPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYHTTPManager.h; sourceTree = "<group>"; };
+		3D5FDF38212D481E0086C642 /* XPYHTTPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYHTTPManager.m; sourceTree = "<group>"; };
+		3D5FDF3A212D567D0086C642 /* XPYBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYBaseRequest.h; sourceTree = "<group>"; };
+		3D5FDF3B212D567D0086C642 /* XPYBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYBaseRequest.m; sourceTree = "<group>"; };
+		3D5FDF40212D5B300086C642 /* XPYCommonDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYCommonDefines.m; sourceTree = "<group>"; };
+		3D5FDF41212D5B310086C642 /* XPYCommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYCommonDefines.h; sourceTree = "<group>"; };
+		3D5FDF43212D5B780086C642 /* InDream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InDream-Prefix.pch"; sourceTree = "<group>"; };
+		3D5FDF44212E80FC0086C642 /* IDLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDLogin.storyboard; sourceTree = "<group>"; };
+		3D5FDF47212E9CD50086C642 /* IDLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDLoginViewController.h; sourceTree = "<group>"; };
+		3D5FDF48212E9CD50086C642 /* IDLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDLoginViewController.m; sourceTree = "<group>"; };
+		3D5FDF4B212EA2C60086C642 /* IDLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDLoginViewModel.h; sourceTree = "<group>"; };
+		3D5FDF4C212EA2C60086C642 /* IDLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDLoginViewModel.m; sourceTree = "<group>"; };
+		3D5FDF4E212EB7E30086C642 /* XPYUtilitiesDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYUtilitiesDefine.h; sourceTree = "<group>"; };
+		3D5FDF4F212EB7E30086C642 /* XPYUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYUtilities.h; sourceTree = "<group>"; };
+		3D5FDF50212EB7E30086C642 /* XPYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYUtilities.m; sourceTree = "<group>"; };
+		3D5FDF52212EBBDD0086C642 /* IDConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDConstant.h; sourceTree = "<group>"; };
+		3D5FDF53212EBBDD0086C642 /* IDConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDConstant.m; sourceTree = "<group>"; };
 		650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.release.xcconfig"; sourceTree = "<group>"; };
 		905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.debug.xcconfig"; sourceTree = "<group>"; };
 		B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,15 +138,23 @@
 		3D5FDEF72123BCF40086C642 /* InDream */ = {
 			isa = PBXGroup;
 			children = (
+				3D5FDF31212CF5E30086C642 /* Vendor */,
+				3D5FDF30212CF5DC0086C642 /* Commons */,
+				3D5FDF32212CF7470086C642 /* Manager */,
+				3D5FDF2F212CF5CE0086C642 /* Request */,
+				3D5FDF2E212CF5C60086C642 /* Models */,
+				3D5FDF4A212EA2790086C642 /* ViewModels */,
+				3D5FDF2D212CF5580086C642 /* Features */,
+				3D5FDF2A2123C0D70086C642 /* Storyboards */,
 				3D5FDEF82123BCF40086C642 /* AppDelegate.h */,
 				3D5FDEF92123BCF40086C642 /* AppDelegate.m */,
 				3D5FDEFB2123BCF40086C642 /* ViewController.h */,
 				3D5FDEFC2123BCF40086C642 /* ViewController.m */,
-				3D5FDEFE2123BCF40086C642 /* Main.storyboard */,
 				3D5FDF012123BCF60086C642 /* Assets.xcassets */,
-				3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */,
 				3D5FDF062123BCF60086C642 /* Info.plist */,
 				3D5FDF072123BCF60086C642 /* main.m */,
+				3D5FDF2B2123C49C0086C642 /* Localizable.strings */,
+				3D5FDF43212D5B780086C642 /* InDream-Prefix.pch */,
 			);
 			path = InDream;
 			sourceTree = "<group>";
@@ -137,6 +175,90 @@
 				3D5FDF1E2123BCF60086C642 /* Info.plist */,
 			);
 			path = InDreamUITests;
+			sourceTree = "<group>";
+		};
+		3D5FDF2A2123C0D70086C642 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDEFE2123BCF40086C642 /* Main.storyboard */,
+				3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */,
+				3D5FDF44212E80FC0086C642 /* IDLogin.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3D5FDF2D212CF5580086C642 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF46212E92020086C642 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3D5FDF2E212CF5C60086C642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF34212CFB380086C642 /* XPYBaseModel.h */,
+				3D5FDF35212CFB380086C642 /* XPYBaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D5FDF2F212CF5CE0086C642 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF3A212D567D0086C642 /* XPYBaseRequest.h */,
+				3D5FDF3B212D567D0086C642 /* XPYBaseRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3D5FDF30212CF5DC0086C642 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF4F212EB7E30086C642 /* XPYUtilities.h */,
+				3D5FDF50212EB7E30086C642 /* XPYUtilities.m */,
+				3D5FDF4E212EB7E30086C642 /* XPYUtilitiesDefine.h */,
+				3D5FDF41212D5B310086C642 /* XPYCommonDefines.h */,
+				3D5FDF40212D5B300086C642 /* XPYCommonDefines.m */,
+				3D5FDF52212EBBDD0086C642 /* IDConstant.h */,
+				3D5FDF53212EBBDD0086C642 /* IDConstant.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		3D5FDF31212CF5E30086C642 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3D5FDF32212CF7470086C642 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF37212D481E0086C642 /* XPYHTTPManager.h */,
+				3D5FDF38212D481E0086C642 /* XPYHTTPManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3D5FDF46212E92020086C642 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF47212E9CD50086C642 /* IDLoginViewController.h */,
+				3D5FDF48212E9CD50086C642 /* IDLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D5FDF4A212EA2790086C642 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FDF4B212EA2C60086C642 /* IDLoginViewModel.h */,
+				3D5FDF4C212EA2C60086C642 /* IDLoginViewModel.m */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		C9D0A6BD6E7578C9B107CF7F /* Frameworks */ = {
@@ -262,8 +384,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5FDF052123BCF60086C642 /* LaunchScreen.storyboard in Resources */,
+				3D5FDF2C2123C49C0086C642 /* Localizable.strings in Resources */,
 				3D5FDF022123BCF60086C642 /* Assets.xcassets in Resources */,
 				3D5FDF002123BCF40086C642 /* Main.storyboard in Resources */,
+				3D5FDF45212E80FC0086C642 /* IDLogin.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +453,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */,
+				3D5FDF3C212D567D0086C642 /* XPYBaseRequest.m in Sources */,
+				3D5FDF39212D481E0086C642 /* XPYHTTPManager.m in Sources */,
 				3D5FDEFD2123BCF40086C642 /* ViewController.m in Sources */,
 				3D5FDF082123BCF60086C642 /* main.m in Sources */,
+				3D5FDF4D212EA2C60086C642 /* IDLoginViewModel.m in Sources */,
+				3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */,
+				3D5FDF36212CFB380086C642 /* XPYBaseModel.m in Sources */,
+				3D5FDF42212D5B310086C642 /* XPYCommonDefines.m in Sources */,
 				3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */,
+				3D5FDF49212E9CD50086C642 /* IDLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +635,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/InDream/InDream-Prefix.pch";
 				INFOPLIST_FILE = InDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,7 +656,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4X48R8LQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/InDream/InDream-Prefix.pch";
 				INFOPLIST_FILE = InDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
