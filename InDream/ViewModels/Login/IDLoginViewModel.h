@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveCocoa.h>
 
 @interface IDLoginViewModel : NSObject
 //手机号

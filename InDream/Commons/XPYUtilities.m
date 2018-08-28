@@ -63,5 +63,14 @@
     UIGraphicsEndImageContext();
     return resultImage;
 }
++ (BOOL)isMobileNumber:(NSString *)mobileNumber
+{
+    NSString *target = @"^(0|86|17951)?(13[0-9]|15[012356789]|16[6]|19[89]]|17[01345678]|18[0-9]|14[579])[0-9]{8}$";
+    NSPredicate *targetPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", target];
+    if ([targetPredicate evaluateWithObject:mobileNumber]) {
+        return YES;
+    }
+    return NO;
+}
 
 @end

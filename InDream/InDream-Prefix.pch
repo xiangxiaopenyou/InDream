@@ -14,5 +14,6 @@
 #import "XPYCommonDefines.h"
 #import "XPYUtilitiesDefine.h"
 #import "IDConstant.h"
+#import <ReactiveCocoa.h>
 
 #endif /* InDream_Prefix_pch */

@@ -13,4 +13,5 @@
 + (BOOL)isNullObject:(id)object;
 + (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
 + (UIImage *)imageWithCornerRadius:(CGFloat)radius size:(CGSize)size image:(UIImage *)originImage;
++ (BOOL)isMobileNumber:(NSString *)mobileNumber;
 @end

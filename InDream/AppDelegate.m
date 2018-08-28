@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+Configurations.h"
+#import "IDLoginViewController.h"
+#import "IDMainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initConfigurations:application options:launchOptions];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self loginStatusChanged:nil];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -45,6 +52,23 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+/**
+ 监听登录状态
+
+ @param notification 登录状态
+ */
+- (void)loginStatusChanged:(NSNotification *)notification {
+    if ([notification.object boolValue]) {
+        
+    } else {
+        IDLoginViewController *loginViewController = XPYViewControllerWithStoryboard(@"IDLogin", @"IDLogin");
+        self.window.rootViewController = loginViewController;
+        
+//        IDMainTabBarController *tabBarController = [[IDMainTabBarController alloc] init];
+//        self.window.rootViewController = tabBarController;
+    }
 }
 
 

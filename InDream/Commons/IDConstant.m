@@ -7,5 +7,9 @@
 //
 
 #import "IDConstant.h"
-NSUInteger const IDCaptchaFetchMaxtime = 60;
+NSString * const IDWeChatKey = @"";
+NSString * const IDFetchWechatUserInfoKey = @"snsapi_userinfo";
+
+NSUInteger const IDCaptchaFetchMaxtime = 10;
+NSUInteger const IDCaptchaLength = 4;
 

@@ -38,6 +38,24 @@
  */
 #define XPYStrongObject(anObject) autoreleasepoo{} __strong typeof(anObject) anObject = anObject##Weak
 
+/**
+ 通过storyboard初始化ViewController
+ 
+ @param storyboardName storyboard名称
+ @param controllerIdentifier viewControllerID
+ @return viewController对象
+ */
+#define XPYViewControllerWithStoryboard(storyboardName, controllerIdentifier) [[UIStoryboard storyboardWithName:storyboardName bundle:nil] instantiateViewControllerWithIdentifier:controllerIdentifier]
+
+
+/**
+ 获取本地化字符串
+
+ @param aString key
+ @return 字符串
+ */
+#define XPYLocalizedString(aString) NSLocalizedString(aString, nil)
+
 
 /**
  带有透明度的RGB颜色
@@ -93,3 +111,12 @@
  @return 目标图片
  */
 #define XPYImageWithCornerRadius(aRadius, aSize, anImage) [XPYUtilities imageWithCornerRadius:aRadius size:aSize image:anImage]
+
+
+/**
+ 判断是否正确的移动手机号
+
+ @param aString 手机号字符串
+ @return BOOL值
+ */
+#define XPYIsMobileNumber(aString) [XPYUtilities isMobileNumber:aString]
