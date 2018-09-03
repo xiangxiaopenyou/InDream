@@ -19,3 +19,7 @@ extern NSUInteger const IDCaptchaFetchMaxtime;
 //验证码位数
 extern NSUInteger const IDCaptchaLength;
 
+#pragma mark - Notification key
+extern NSString * const IDChangeRootControllerNotificationKey;
+
+extern NSString * const IDMinimumBirthDayDate;

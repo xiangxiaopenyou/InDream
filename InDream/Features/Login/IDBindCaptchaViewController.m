@@ -25,12 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.resendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.3)] forState:UIControlStateDisabled];
-    [self.resendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.7)] forState:UIControlStateNormal];
-    [self.submitButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.3)] forState:UIControlStateDisabled];
-    [self.submitButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.7)] forState:UIControlStateNormal];
-    self.mobileNumberLabel.text = [NSString stringWithFormat:@"输入%@收到的%@位验证码", self.mobileNumber, @(IDCaptchaLength)];
-    
+    [self setupViews];
     [self bindViewModel];
 }
 - (void)viewDidAppear:(BOOL)animated {
@@ -42,7 +37,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-#pragma mark - Private methods
+#pragma mark - Setup
+- (void)setupViews {
+    [self.resendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.3)] forState:UIControlStateDisabled];
+    [self.resendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.7)] forState:UIControlStateNormal];
+    [self.submitButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.3)] forState:UIControlStateDisabled];
+    [self.submitButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.7)] forState:UIControlStateNormal];
+    self.mobileNumberLabel.text = [NSString stringWithFormat:@"输入%@收到的%@位验证码", self.mobileNumber, @(IDCaptchaLength)];
+}
 - (void)bindViewModel {
     self.viewModel = [[IDBindCaptchaViewModel alloc] init];
     self.viewModel.mobile = self.mobileNumber;

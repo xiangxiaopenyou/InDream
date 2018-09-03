@@ -46,7 +46,7 @@
         }] doNext:^(id x) {
             @strongify(self);
             self.count = IDCaptchaFetchMaxtime;
-            self.captchaTitle = [NSString stringWithFormat:@"%@秒后重新发送", @(IDCaptchaFetchMaxtime)];
+            self.captchaTitle = [NSString stringWithFormat:@"%@秒", @(IDCaptchaFetchMaxtime)];
             self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerValueChanged:) userInfo:nil repeats:YES];
             
         }];
@@ -80,7 +80,7 @@
         self.captchaTitle = XPYLocalizedString(@"login_captcha");
         return;
     }
-    self.captchaTitle = [NSString stringWithFormat:@"%@秒后重新发送", @(self.count)];
+    self.captchaTitle = [NSString stringWithFormat:@"%@秒", @(self.count)];
 }
 
 @end

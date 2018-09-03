@@ -12,3 +12,12 @@
 "login_captcha" = "验证码";
 "login_sending" = "发送中...";
 "login_resend_captcha" = "重新发送验证码";
+"login_placeholder_mobile" = "请输入手机号";
+"login_placeholder_captcha" = "请输入验证码";
+
+"user_select_date" = "选择日期";
+
+"community_recommendations" = "推荐";
+"community_following" = "关注";
+
+

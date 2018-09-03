@@ -23,8 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.sendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.3)] forState:UIControlStateDisabled];
-    [self.sendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.7)] forState:UIControlStateNormal];
+    [self setupViews];
     [self bindViewModel];
 }
 - (void)viewDidAppear:(BOOL)animated {
@@ -36,7 +35,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+#pragma mark - Setup
+- (void)setupViews {
+    [self.sendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.3)] forState:UIControlStateDisabled];
+    [self.sendButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"0d0606", 0.7)] forState:UIControlStateNormal];
+}
 - (void)bindViewModel {
     self.viewModel = [[IDBindMobileViewModel alloc] init];
     RAC(self.viewModel, mobile) = [RACSignal merge:@[RACObserve(self.mobileTextField, text), self.mobileTextField.rac_textSignal]];

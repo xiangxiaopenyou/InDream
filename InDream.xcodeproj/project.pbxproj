@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		06312665C1D4E189C8D612CA /* libPods-InDream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */; };
+		3D08A61B2137831C00234571 /* IDFillOtherInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D08A61A2137831C00234571 /* IDFillOtherInformationViewController.m */; };
+		3D08A61E213785F700234571 /* IDFillInformationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D08A61D213785F700234571 /* IDFillInformationViewModel.m */; };
+		3D08A62121378CFE00234571 /* IDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D08A62021378CFE00234571 /* IDUserModel.m */; };
 		3D58557A2133CE75007CEEF5 /* IDMobileBindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5855792133CE75007CEEF5 /* IDMobileBindViewController.m */; };
 		3D58557E2133D147007CEEF5 /* IDMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58557D2133D147007CEEF5 /* IDMainTabBarController.m */; };
 		3D5855832134ECD2007CEEF5 /* IDBindMobileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5855822134ECD2007CEEF5 /* IDBindMobileViewModel.m */; };
 		3D58558A21351FB9007CEEF5 /* IDBindCaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58558921351FB9007CEEF5 /* IDBindCaptchaViewController.m */; };
 		3D58558D21352757007CEEF5 /* IDBindCaptchaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58558C21352757007CEEF5 /* IDBindCaptchaViewModel.m */; };
+		3D585590213647A9007CEEF5 /* IDFillInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58558F213647A9007CEEF5 /* IDFillInformationViewController.m */; };
+		3D58559421366F41007CEEF5 /* IDHomepageCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58559321366F41007CEEF5 /* IDHomepageCommunityViewController.m */; };
+		3D58559621366F6A007CEEF5 /* IDCommunity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D58559521366F6A007CEEF5 /* IDCommunity.storyboard */; };
 		3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDEF92123BCF40086C642 /* AppDelegate.m */; };
 		3D5FDF022123BCF60086C642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF012123BCF60086C642 /* Assets.xcassets */; };
 		3D5FDF052123BCF60086C642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */; };
@@ -30,6 +36,7 @@
 		3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF50212EB7E30086C642 /* XPYUtilities.m */; };
 		3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF53212EBBDD0086C642 /* IDConstant.m */; };
 		3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF5A212FEEB70086C642 /* AppDelegate+Configurations.m */; };
+		3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D08A6192137831C00234571 /* IDFillOtherInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDFillOtherInformationViewController.h; sourceTree = "<group>"; };
+		3D08A61A2137831C00234571 /* IDFillOtherInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillOtherInformationViewController.m; sourceTree = "<group>"; };
+		3D08A61C213785F700234571 /* IDFillInformationViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDFillInformationViewModel.h; sourceTree = "<group>"; };
+		3D08A61D213785F700234571 /* IDFillInformationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillInformationViewModel.m; sourceTree = "<group>"; };
+		3D08A61F21378CFE00234571 /* IDUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDUserModel.h; sourceTree = "<group>"; };
+		3D08A62021378CFE00234571 /* IDUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDUserModel.m; sourceTree = "<group>"; };
 		3D5855782133CE75007CEEF5 /* IDMobileBindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMobileBindViewController.h; sourceTree = "<group>"; };
 		3D5855792133CE75007CEEF5 /* IDMobileBindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDMobileBindViewController.m; sourceTree = "<group>"; };
 		3D58557C2133D147007CEEF5 /* IDMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMainTabBarController.h; sourceTree = "<group>"; };
@@ -60,6 +73,11 @@
 		3D58558921351FB9007CEEF5 /* IDBindCaptchaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDBindCaptchaViewController.m; sourceTree = "<group>"; };
 		3D58558B21352757007CEEF5 /* IDBindCaptchaViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDBindCaptchaViewModel.h; sourceTree = "<group>"; };
 		3D58558C21352757007CEEF5 /* IDBindCaptchaViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDBindCaptchaViewModel.m; sourceTree = "<group>"; };
+		3D58558E213647A9007CEEF5 /* IDFillInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDFillInformationViewController.h; sourceTree = "<group>"; };
+		3D58558F213647A9007CEEF5 /* IDFillInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillInformationViewController.m; sourceTree = "<group>"; };
+		3D58559221366F41007CEEF5 /* IDHomepageCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDHomepageCommunityViewController.h; sourceTree = "<group>"; };
+		3D58559321366F41007CEEF5 /* IDHomepageCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDHomepageCommunityViewController.m; sourceTree = "<group>"; };
+		3D58559521366F6A007CEEF5 /* IDCommunity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDCommunity.storyboard; sourceTree = "<group>"; };
 		3D5FDEF52123BCF40086C642 /* InDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5FDEF82123BCF40086C642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D5FDEF92123BCF40086C642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +113,8 @@
 		3D5FDF53212EBBDD0086C642 /* IDConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDConstant.m; sourceTree = "<group>"; };
 		3D5FDF59212FEEB70086C642 /* AppDelegate+Configurations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Configurations.h"; sourceTree = "<group>"; };
 		3D5FDF5A212FEEB70086C642 /* AppDelegate+Configurations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Configurations.m"; sourceTree = "<group>"; };
+		3D9BBD2321390CED00BABB29 /* IDFillOtherInformationViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDFillOtherInformationViewModel.h; sourceTree = "<group>"; };
+		3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillOtherInformationViewModel.m; sourceTree = "<group>"; };
 		650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.release.xcconfig"; sourceTree = "<group>"; };
 		905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.debug.xcconfig"; sourceTree = "<group>"; };
 		B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +164,21 @@
 				3D5855822134ECD2007CEEF5 /* IDBindMobileViewModel.m */,
 				3D58558B21352757007CEEF5 /* IDBindCaptchaViewModel.h */,
 				3D58558C21352757007CEEF5 /* IDBindCaptchaViewModel.m */,
+				3D08A61C213785F700234571 /* IDFillInformationViewModel.h */,
+				3D08A61D213785F700234571 /* IDFillInformationViewModel.m */,
+				3D9BBD2321390CED00BABB29 /* IDFillOtherInformationViewModel.h */,
+				3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		3D58559121366EBD007CEEF5 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				3D58559221366F41007CEEF5 /* IDHomepageCommunityViewController.h */,
+				3D58559321366F41007CEEF5 /* IDHomepageCommunityViewController.m */,
+			);
+			path = Community;
 			sourceTree = "<group>";
 		};
 		3D5FDEEC2123BCF40086C642 = {
@@ -177,10 +210,10 @@
 				3D5FDF30212CF5DC0086C642 /* Commons */,
 				3D5FDF32212CF7470086C642 /* Manager */,
 				3D5FDF2F212CF5CE0086C642 /* Request */,
+				3D5FDF2E212CF5C60086C642 /* Models */,
 				3D5FDF4A212EA2790086C642 /* ViewModels */,
 				3D5FDF2D212CF5580086C642 /* Features */,
 				3D5FDF2A2123C0D70086C642 /* Storyboards */,
-				3D5FDF2E212CF5C60086C642 /* Models */,
 				3D5FDEF82123BCF40086C642 /* AppDelegate.h */,
 				3D5FDEF92123BCF40086C642 /* AppDelegate.m */,
 				3D5FDF59212FEEB70086C642 /* AppDelegate+Configurations.h */,
@@ -217,6 +250,7 @@
 			children = (
 				3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */,
 				3D5FDF44212E80FC0086C642 /* IDLogin.storyboard */,
+				3D58559521366F6A007CEEF5 /* IDCommunity.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -226,6 +260,7 @@
 			children = (
 				3D58557B2133D08D007CEEF5 /* Main */,
 				3D5FDF46212E92020086C642 /* Login */,
+				3D58559121366EBD007CEEF5 /* Community */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -235,6 +270,8 @@
 			children = (
 				3D5FDF34212CFB380086C642 /* XPYBaseModel.h */,
 				3D5FDF35212CFB380086C642 /* XPYBaseModel.m */,
+				3D08A61F21378CFE00234571 /* IDUserModel.h */,
+				3D08A62021378CFE00234571 /* IDUserModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -287,6 +324,10 @@
 				3D5855792133CE75007CEEF5 /* IDMobileBindViewController.m */,
 				3D58558821351FB9007CEEF5 /* IDBindCaptchaViewController.h */,
 				3D58558921351FB9007CEEF5 /* IDBindCaptchaViewController.m */,
+				3D58558E213647A9007CEEF5 /* IDFillInformationViewController.h */,
+				3D58558F213647A9007CEEF5 /* IDFillInformationViewController.m */,
+				3D08A6192137831C00234571 /* IDFillOtherInformationViewController.h */,
+				3D08A61A2137831C00234571 /* IDFillOtherInformationViewController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -422,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5FDF052123BCF60086C642 /* LaunchScreen.storyboard in Resources */,
+				3D58559621366F6A007CEEF5 /* IDCommunity.storyboard in Resources */,
 				3D5FDF2C2123C49C0086C642 /* Localizable.strings in Resources */,
 				3D5FDF022123BCF60086C642 /* Assets.xcassets in Resources */,
 				3D5FDF45212E80FC0086C642 /* IDLogin.storyboard in Resources */,
@@ -490,9 +532,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D08A61B2137831C00234571 /* IDFillOtherInformationViewController.m in Sources */,
 				3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */,
 				3D5FDF3C212D567D0086C642 /* XPYBaseRequest.m in Sources */,
 				3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */,
+				3D08A62121378CFE00234571 /* IDUserModel.m in Sources */,
+				3D58559421366F41007CEEF5 /* IDHomepageCommunityViewController.m in Sources */,
+				3D08A61E213785F700234571 /* IDFillInformationViewModel.m in Sources */,
 				3D58558A21351FB9007CEEF5 /* IDBindCaptchaViewController.m in Sources */,
 				3D5855832134ECD2007CEEF5 /* IDBindMobileViewModel.m in Sources */,
 				3D58557A2133CE75007CEEF5 /* IDMobileBindViewController.m in Sources */,
@@ -500,6 +546,8 @@
 				3D5FDF082123BCF60086C642 /* main.m in Sources */,
 				3D5FDF4D212EA2C60086C642 /* IDLoginViewModel.m in Sources */,
 				3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */,
+				3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */,
+				3D585590213647A9007CEEF5 /* IDFillInformationViewController.m in Sources */,
 				3D5FDF36212CFB380086C642 /* XPYBaseModel.m in Sources */,
 				3D5FDF42212D5B310086C642 /* XPYCommonDefines.m in Sources */,
 				3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */,

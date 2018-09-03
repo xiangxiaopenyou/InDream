@@ -8,8 +8,10 @@
 
 #import "IDLoginViewController.h"
 #import "IDMobileBindViewController.h"
+#import "IDFillInformationViewController.h"
 #import "IDLoginViewModel.h"
 #import <OpenShare+Weixin.h>
+#import <UIImage+YYWebImage.h>
 @interface IDLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *captchaTextField;
@@ -26,8 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.captchaButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [self.captchaButton setTitleColor:[UIColor grayColor] forState:UIControlStateDisabled];
+    [self setupViews];
     [self bindViewModel];
 }
 
@@ -36,7 +37,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Private methods
+#pragma mark - Setup
+- (void)setupViews {
+    [self.captchaButton setTitleColor:XPYColorWithHexStringAndAlpha(@"3E55E5", 1) forState:UIControlStateNormal];
+    [self.captchaButton setTitleColor:XPYColorWithHexStringAndAlpha(@"3E55E5", 0.3) forState:UIControlStateDisabled];
+    [self.loginButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"080404", 0.7)] forState:UIControlStateNormal];
+    [self.loginButton setBackgroundImage:[UIImage yy_imageWithColor:XPYColorWithHexStringAndAlpha(@"080404", 0.3)] forState:UIControlStateDisabled];
+    NSAttributedString *mobilePlaceholder = [[NSAttributedString alloc] initWithString:XPYLocalizedString(@"login_placeholder_mobile") attributes:@{NSForegroundColorAttributeName : [UIColor colorWithWhite:1 alpha:0.4]}];
+    self.usernameTextField.attributedPlaceholder = mobilePlaceholder;
+    NSAttributedString *captchaPlaceholder = [[NSAttributedString alloc] initWithString:XPYLocalizedString(@"login_placeholder_captcha") attributes:@{NSForegroundColorAttributeName : [UIColor colorWithWhite:1 alpha:0.4]}];
+    self.captchaTextField.attributedPlaceholder = captchaPlaceholder;
+}
 - (void)bindViewModel {
     self.loginViewModel = [[IDLoginViewModel alloc] init];
     RAC(self.loginViewModel, username) = [RACSignal merge:@[RACObserve(self.usernameTextField, text), self.usernameTextField.rac_textSignal]];
@@ -56,12 +67,19 @@
     [self.loginViewModel.captchaCommand execute:nil];
 }
 - (IBAction)commonLoginAction:(id)sender {
-    [self.loginViewModel.loginCommand execute:nil];
+    [[self.loginViewModel.loginCommand execute:nil] subscribeCompleted:^{
+        IDFillInformationViewController *informationController = XPYViewControllerWithStoryboard(@"IDLogin", @"IDFillInformation");
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:informationController];
+        informationController.nicknameString = @"项小盆友";
+        informationController.avatarString = @"https://";
+        informationController.gender = @1;
+        [self presentViewController:navigationController animated:NO completion:nil];
+    }];
 }
 - (IBAction)wechatLoginAction:(id)sender {
     IDMobileBindViewController *mobileBindController = XPYViewControllerWithStoryboard(@"IDLogin", @"IDMobileBind");
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mobileBindController];
-    [self presentViewController:navigationController animated:YES completion:nil];
+    [self presentViewController:navigationController animated:NO completion:nil];
 //    [OpenShare WeixinAuth:IDFetchWechatUserInfoKey Success:^(NSDictionary *message) {
 //
 //    } Fail:^(NSDictionary *message, NSError *error) {

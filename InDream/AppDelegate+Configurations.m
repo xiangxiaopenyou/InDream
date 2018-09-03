@@ -8,12 +8,15 @@
 
 #import "AppDelegate+Configurations.h"
 #import <IQKeyboardManager.h>
+#import <UIImage+YYWebImage.h>
 
 @implementation AppDelegate (Configurations)
 - (void)initConfigurations:(UIApplication *)application options:(NSDictionary *)launchOptions {
     [[IQKeyboardManager sharedManager] setEnable:YES];
     [[IQKeyboardManager sharedManager] setEnableAutoToolbar:NO];
     [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage yy_imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
 }
 
 @end
