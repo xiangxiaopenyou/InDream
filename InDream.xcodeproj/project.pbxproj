@@ -37,6 +37,10 @@
 		3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF53212EBBDD0086C642 /* IDConstant.m */; };
 		3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF5A212FEEB70086C642 /* AppDelegate+Configurations.m */; };
 		3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */; };
+		3D9BBD59213E2F8B00BABB29 /* IDCommunityTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD58213E2F8B00BABB29 /* IDCommunityTableHeaderView.m */; };
+		3D9BBD5C213E604700BABB29 /* IDHotArticlesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD5B213E604700BABB29 /* IDHotArticlesCell.m */; };
+		3D9BBD5F213E60BF00BABB29 /* IDSelectQuestionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */; };
+		3D9BBD62213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +119,14 @@
 		3D5FDF5A212FEEB70086C642 /* AppDelegate+Configurations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Configurations.m"; sourceTree = "<group>"; };
 		3D9BBD2321390CED00BABB29 /* IDFillOtherInformationViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDFillOtherInformationViewModel.h; sourceTree = "<group>"; };
 		3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillOtherInformationViewModel.m; sourceTree = "<group>"; };
+		3D9BBD57213E2F8B00BABB29 /* IDCommunityTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCommunityTableHeaderView.h; sourceTree = "<group>"; };
+		3D9BBD58213E2F8B00BABB29 /* IDCommunityTableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCommunityTableHeaderView.m; sourceTree = "<group>"; };
+		3D9BBD5A213E604700BABB29 /* IDHotArticlesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDHotArticlesCell.h; sourceTree = "<group>"; };
+		3D9BBD5B213E604700BABB29 /* IDHotArticlesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDHotArticlesCell.m; sourceTree = "<group>"; };
+		3D9BBD5D213E60BF00BABB29 /* IDSelectQuestionsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDSelectQuestionsCell.h; sourceTree = "<group>"; };
+		3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDSelectQuestionsCell.m; sourceTree = "<group>"; };
+		3D9BBD60213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCommunityHeaderCollectionViewCell.h; sourceTree = "<group>"; };
+		3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCommunityHeaderCollectionViewCell.m; sourceTree = "<group>"; };
 		650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.release.xcconfig"; sourceTree = "<group>"; };
 		905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.debug.xcconfig"; sourceTree = "<group>"; };
 		B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +187,7 @@
 		3D58559121366EBD007CEEF5 /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				3D9BBD56213E2EF900BABB29 /* Views */,
 				3D58559221366F41007CEEF5 /* IDHomepageCommunityViewController.h */,
 				3D58559321366F41007CEEF5 /* IDHomepageCommunityViewController.m */,
 			);
@@ -338,6 +351,21 @@
 				3D5855842134ECE1007CEEF5 /* Login */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3D9BBD56213E2EF900BABB29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D9BBD57213E2F8B00BABB29 /* IDCommunityTableHeaderView.h */,
+				3D9BBD58213E2F8B00BABB29 /* IDCommunityTableHeaderView.m */,
+				3D9BBD60213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.h */,
+				3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */,
+				3D9BBD5A213E604700BABB29 /* IDHotArticlesCell.h */,
+				3D9BBD5B213E604700BABB29 /* IDHotArticlesCell.m */,
+				3D9BBD5D213E60BF00BABB29 /* IDSelectQuestionsCell.h */,
+				3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C9D0A6BD6E7578C9B107CF7F /* Frameworks */ = {
@@ -535,9 +563,12 @@
 				3D08A61B2137831C00234571 /* IDFillOtherInformationViewController.m in Sources */,
 				3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */,
 				3D5FDF3C212D567D0086C642 /* XPYBaseRequest.m in Sources */,
+				3D9BBD5F213E60BF00BABB29 /* IDSelectQuestionsCell.m in Sources */,
 				3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */,
 				3D08A62121378CFE00234571 /* IDUserModel.m in Sources */,
+				3D9BBD5C213E604700BABB29 /* IDHotArticlesCell.m in Sources */,
 				3D58559421366F41007CEEF5 /* IDHomepageCommunityViewController.m in Sources */,
+				3D9BBD62213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m in Sources */,
 				3D08A61E213785F700234571 /* IDFillInformationViewModel.m in Sources */,
 				3D58558A21351FB9007CEEF5 /* IDBindCaptchaViewController.m in Sources */,
 				3D5855832134ECD2007CEEF5 /* IDBindMobileViewModel.m in Sources */,
@@ -552,6 +583,7 @@
 				3D5FDF42212D5B310086C642 /* XPYCommonDefines.m in Sources */,
 				3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */,
 				3D58558D21352757007CEEF5 /* IDBindCaptchaViewModel.m in Sources */,
+				3D9BBD59213E2F8B00BABB29 /* IDCommunityTableHeaderView.m in Sources */,
 				3D5FDF49212E9CD50086C642 /* IDLoginViewController.m in Sources */,
 				3D58557E2133D147007CEEF5 /* IDMainTabBarController.m in Sources */,
 			);
@@ -720,7 +752,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/InDream/InDream-Prefix.pch";
 				INFOPLIST_FILE = InDream/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -741,7 +773,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/InDream/InDream-Prefix.pch";
 				INFOPLIST_FILE = InDream/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

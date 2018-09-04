@@ -12,6 +12,7 @@ NSString * const IDFetchWechatUserInfoKey = @"snsapi_userinfo";
 
 NSUInteger const IDCaptchaFetchMaxtime = 10;
 NSUInteger const IDCaptchaLength = 4;
+NSUInteger const IDCommunityScrollViewTag = 999;
 
 NSString * const IDChangeRootControllerNotificationKey = @"ChangeRootControllerNotification";
 

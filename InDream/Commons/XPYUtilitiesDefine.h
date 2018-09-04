@@ -92,7 +92,32 @@
  @param aString 十六进制字符串
  @return UIColor
  */
-#define XPYColorWithHexString(aString) XPYColorWithHexStringAndAlpha(aString, 1);
+#define XPYColorWithHexString(aString) XPYColorWithHexStringAndAlpha(aString, 1)
+
+/**
+ 系统字体
+
+ @param aSize 字体大小
+ @return UIFont
+ */
+#define XPYSystemFontOfSize(aSize) [UIFont systemFontOfSize:aSize]
+
+/**
+ 系统加粗字体
+
+ @param aSize 大小
+ @return UIFont
+ */
+#define XPYBoldFontOfSize(aSize) [UIFont boldSystemFontOfSize:aSize]
+
+/**
+ 加字重字体
+
+ @param aSize 大小
+ @param aWeight 字重
+ @return UIFont
+ */
+#define XPYFontOfSizeWithWeight(aSize, aWeight) [UIFont systemFontOfSize:aSize weight:aWeight]
 
 /**
  判断空值

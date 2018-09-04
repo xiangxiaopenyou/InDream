@@ -18,6 +18,8 @@ extern NSString * const IDFetchWechatUserInfoKey;
 extern NSUInteger const IDCaptchaFetchMaxtime;
 //验证码位数
 extern NSUInteger const IDCaptchaLength;
+//社区scrollView tag
+extern NSUInteger const IDCommunityScrollViewTag;
 
 #pragma mark - Notification key
 extern NSString * const IDChangeRootControllerNotificationKey;
