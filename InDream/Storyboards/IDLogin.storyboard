@@ -201,6 +201,7 @@
                         <outlet property="captchaButton" destination="8MM-bq-Ohg" id="ZDC-tn-hNY"/>
                         <outlet property="captchaTextField" destination="jgu-hk-Sc8" id="j73-gT-swo"/>
                         <outlet property="loginButton" destination="pSz-fr-o6j" id="uDf-Dk-eKe"/>
+                        <outlet property="tableHeaderView" destination="vs8-uz-rO2" id="Hdk-kv-bF9"/>
                         <outlet property="usernameTextField" destination="RhO-1w-RF0" id="xuV-0X-WNd"/>
                         <outlet property="wechatLoginButton" destination="NB3-zy-Aam" id="0Ob-bk-vts"/>
                     </connections>

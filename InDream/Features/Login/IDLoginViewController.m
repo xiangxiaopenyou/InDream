@@ -12,12 +12,15 @@
 #import "IDLoginViewModel.h"
 #import <OpenShare+Weixin.h>
 #import <UIImage+YYWebImage.h>
+#import <YYText.h>
 @interface IDLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *captchaTextField;
 @property (weak, nonatomic) IBOutlet UIButton *loginButton;
 @property (weak, nonatomic) IBOutlet UIButton *captchaButton;
 @property (weak, nonatomic) IBOutlet UIButton *wechatLoginButton;
+@property (weak, nonatomic) IBOutlet UIView *tableHeaderView;
+@property (nonatomic, strong) YYLabel *protocolLabel;
 
 @property (nonatomic, strong) IDLoginViewModel *loginViewModel;
 
@@ -47,6 +50,23 @@
     self.usernameTextField.attributedPlaceholder = mobilePlaceholder;
     NSAttributedString *captchaPlaceholder = [[NSAttributedString alloc] initWithString:XPYLocalizedString(@"login_placeholder_captcha") attributes:@{NSForegroundColorAttributeName : [UIColor colorWithWhite:1 alpha:0.4]}];
     self.captchaTextField.attributedPlaceholder = captchaPlaceholder;
+    
+    [self.tableHeaderView addSubview:self.protocolLabel];
+    [self.protocolLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.wechatLoginButton.mas_bottom).with.mas_offset(24);
+        make.centerX.equalTo(self.tableHeaderView);
+    }];
+    NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:XPYLocalizedString(@"login_protocol_text")];
+    text.yy_color = [UIColor colorWithWhite:1 alpha:0.9];
+    NSRange range = [[text string] rangeOfString:XPYLocalizedString(@"login_protocol_string") options:NSCaseInsensitiveSearch];
+    [text yy_setTextHighlightRange:range
+                             color:XPYColorWithHexStringAndAlpha(@"5851D6", 0.7)
+                   backgroundColor:[UIColor clearColor]
+                         tapAction:^(UIView * _Nonnull containerView, NSAttributedString * _Nonnull text, NSRange range, CGRect rect) {
+                             
+                         }];
+    self.protocolLabel.attributedText = text;
+    
 }
 - (void)bindViewModel {
     self.loginViewModel = [[IDLoginViewModel alloc] init];
@@ -96,5 +116,14 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark - Getters
+- (YYLabel *)protocolLabel {
+    if (!_protocolLabel) {
+        _protocolLabel = [[YYLabel alloc] init];
+        _protocolLabel.font = XPYSystemFontOfSize(10);
+        //_protocolLabel.textColor = [UIColor colorWithWhite:1 alpha:0.9];
+    }
+    return _protocolLabel;
+}
 
 @end

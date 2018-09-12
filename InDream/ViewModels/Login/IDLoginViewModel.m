@@ -7,10 +7,13 @@
 //
 
 #import "IDLoginViewModel.h"
+
 @interface IDLoginViewModel ()
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic, assign) NSUInteger count;
 @property (nonatomic, assign) BOOL captchaButtonValid;
+
+
 @end
 
 @implementation IDLoginViewModel

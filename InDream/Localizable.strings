@@ -14,6 +14,8 @@
 "login_resend_captcha" = "重新发送验证码";
 "login_placeholder_mobile" = "请输入手机号";
 "login_placeholder_captcha" = "请输入验证码";
+"login_protocol_text" = "登录即表示您同意《用户协议》";
+"login_protocol_string" = "《用户协议》";
 
 "user_select_date" = "选择日期";
 
@@ -23,5 +25,8 @@
 "community_hot_articles" = "热门文章";
 "community_select_questions" = "精选问答";
 
+"personal_followers" = "粉丝";
+"personal_attention" = "关注";
+"personal_points" = "积分";
 
 

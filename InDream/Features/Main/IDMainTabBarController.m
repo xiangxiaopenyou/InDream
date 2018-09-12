@@ -8,6 +8,8 @@
 
 #import "IDMainTabBarController.h"
 #import "IDHomepageCommunityViewController.h"
+#import "IDHomepagePersonalViewController.h"
+#import "IDHomepagePersonalNavigationController.h"
 
 @interface IDMainTabBarController ()
 
@@ -27,14 +29,18 @@
 }
 
 - (void)initChildViewController {
+    //社区
     IDHomepageCommunityViewController *communityController = XPYViewControllerWithStoryboard(@"IDCommunity", @"IDHomepageCommunity");
     communityController.title = XPYLocalizedString(@"tabbar_community");
     UINavigationController *communityNavigationController = [[UINavigationController alloc] initWithRootViewController:communityController];
+    
     UIViewController *hypnoticController = [[UIViewController alloc] init];
     hypnoticController.title = XPYLocalizedString(@"tabbar_hypnotic");
-    UIViewController *personalController = [[UIViewController alloc] init];
+    //我的
+    IDHomepagePersonalViewController *personalController = XPYViewControllerWithStoryboard(@"IDPersonal", @"IDHomepagePersonal");
     personalController.title = XPYLocalizedString(@"tabbar_personal");
-    self.viewControllers = @[communityNavigationController, hypnoticController, personalController];
+    IDHomepagePersonalNavigationController *personalNavigationController = [[IDHomepagePersonalNavigationController alloc] initWithRootViewController:personalController];
+    self.viewControllers = @[communityNavigationController, hypnoticController, personalNavigationController];
 }
 
 /*

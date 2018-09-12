@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XPYFileManager.h"
 
 #pragma mark - 应用相关
 //微信key
@@ -25,3 +26,32 @@ extern NSUInteger const IDCommunityScrollViewTag;
 extern NSString * const IDChangeRootControllerNotificationKey;
 
 extern NSString * const IDMinimumBirthDayDate;
+
+#pragma mark - Define
+//主文字颜色
+#define IDMainTextColor XPYColorWithHexString(@"333333")
+//副文字颜色
+#define IDSubTextColor XPYColorWithHexString(@"666666")
+//文字浅色
+#define IDTintTextColor XPYColorWithHexString(@"999999")
+
+//创建一个文件夹
+static inline void IDCreateDirectoryAtPath(NSString *path) {
+    BOOL isDir = NO;
+    BOOL isExist = [[XPYFileManager fileManager] fileExistsAtPath:path isDirectory:&isDir];
+    if (isExist) {
+        if (!isDir) {
+            [XPYFileManager removeFile:path];
+            [XPYFileManager createDirectoryAtPath:path];
+        }
+    } else {
+        [XPYFileManager createDirectoryAtPath:path];
+    }
+}
+//获取重要数据路径
+static inline NSString *IDFilePathFromInDreamDoc(NSString *filename) {
+    NSString *docPath = [XPYDocumentDirectory stringByAppendingPathComponent:filename];
+    IDCreateDirectoryAtPath(docPath);
+    return [docPath stringByAppendingPathComponent:filename];
+}
+

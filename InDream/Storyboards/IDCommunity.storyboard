@@ -13,7 +13,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Ucf-6K-jcG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ow8-MP-667" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="My0-G5-GkK" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TWs-HW-rZC">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -23,13 +22,13 @@
                         <segue destination="wQY-4x-bLR" kind="relationship" relationship="rootViewController" id="lVC-4b-cxo"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ow8-MP-667" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2955" y="160"/>
         </scene>
         <!--Homepage Community View Controller-->
         <scene sceneID="x1i-1z-c8V">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="30Q-aO-n83" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="IDHomepageCommunity" id="wQY-4x-bLR" customClass="IDHomepageCommunityViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eQV-bW-auO"/>
@@ -341,7 +340,7 @@
                             <constraint firstItem="jlR-Qp-iuY" firstAttribute="top" secondItem="Tta-d8-jfd" secondAttribute="bottom" id="wns-eO-L1O"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="D7N-79-njK"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="D7N-79-njK"/>
                     <connections>
                         <outlet property="followingButton" destination="Wfp-4c-DNv" id="HPK-iy-SoN"/>
                         <outlet property="mainScrollView" destination="Tta-d8-jfd" id="rVn-xl-jpQ"/>
@@ -349,6 +348,7 @@
                         <outlet property="topSegView" destination="aH9-48-wJH" id="5oH-mL-TzR"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30Q-aO-n83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1996" y="136.28185907046478"/>
         </scene>

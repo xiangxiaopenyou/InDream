@@ -41,6 +41,14 @@
 		3D9BBD5C213E604700BABB29 /* IDHotArticlesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD5B213E604700BABB29 /* IDHotArticlesCell.m */; };
 		3D9BBD5F213E60BF00BABB29 /* IDSelectQuestionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */; };
 		3D9BBD62213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */; };
+		3D9BBD65214218BB00BABB29 /* IDPersonal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BBD64214218BB00BABB29 /* IDPersonal.storyboard */; };
+		3DE5315C21461B8100E66502 /* IDHomepagePersonalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5315B21461B8100E66502 /* IDHomepagePersonalNavigationController.m */; };
+		3DE53169214659CB00E66502 /* IDHomepagePersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE53167214659CB00E66502 /* IDHomepagePersonalViewController.m */; };
+		3DE5316C2147664200E66502 /* IDCommunitySearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5316B2147664200E66502 /* IDCommunitySearchView.m */; };
+		3DE5316F2147A27300E66502 /* IDUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5316E2147A27300E66502 /* IDUserManager.m */; };
+		3DE531722147AC9300E66502 /* XPYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE531712147AC9300E66502 /* XPYFileManager.m */; };
+		3DE531752148B5CE00E66502 /* IDPersonalHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE531742148B5CE00E66502 /* IDPersonalHeaderView.m */; };
+		3DE531782148B82300E66502 /* IDPersonalAdditionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE531772148B82300E66502 /* IDPersonalAdditionButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +135,21 @@
 		3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDSelectQuestionsCell.m; sourceTree = "<group>"; };
 		3D9BBD60213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCommunityHeaderCollectionViewCell.h; sourceTree = "<group>"; };
 		3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCommunityHeaderCollectionViewCell.m; sourceTree = "<group>"; };
+		3D9BBD64214218BB00BABB29 /* IDPersonal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDPersonal.storyboard; sourceTree = "<group>"; };
+		3DE5315A21461B8100E66502 /* IDHomepagePersonalNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDHomepagePersonalNavigationController.h; sourceTree = "<group>"; };
+		3DE5315B21461B8100E66502 /* IDHomepagePersonalNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDHomepagePersonalNavigationController.m; sourceTree = "<group>"; };
+		3DE53167214659CB00E66502 /* IDHomepagePersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDHomepagePersonalViewController.m; sourceTree = "<group>"; };
+		3DE53168214659CB00E66502 /* IDHomepagePersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDHomepagePersonalViewController.h; sourceTree = "<group>"; };
+		3DE5316A2147664200E66502 /* IDCommunitySearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCommunitySearchView.h; sourceTree = "<group>"; };
+		3DE5316B2147664200E66502 /* IDCommunitySearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCommunitySearchView.m; sourceTree = "<group>"; };
+		3DE5316D2147A27300E66502 /* IDUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDUserManager.h; sourceTree = "<group>"; };
+		3DE5316E2147A27300E66502 /* IDUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDUserManager.m; sourceTree = "<group>"; };
+		3DE531702147AC9300E66502 /* XPYFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYFileManager.h; sourceTree = "<group>"; };
+		3DE531712147AC9300E66502 /* XPYFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYFileManager.m; sourceTree = "<group>"; };
+		3DE531732148B5CE00E66502 /* IDPersonalHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPersonalHeaderView.h; sourceTree = "<group>"; };
+		3DE531742148B5CE00E66502 /* IDPersonalHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPersonalHeaderView.m; sourceTree = "<group>"; };
+		3DE531762148B82300E66502 /* IDPersonalAdditionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPersonalAdditionButton.h; sourceTree = "<group>"; };
+		3DE531772148B82300E66502 /* IDPersonalAdditionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPersonalAdditionButton.m; sourceTree = "<group>"; };
 		650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.release.xcconfig"; sourceTree = "<group>"; };
 		905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.debug.xcconfig"; sourceTree = "<group>"; };
 		B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,6 +287,7 @@
 				3D5FDF032123BCF60086C642 /* LaunchScreen.storyboard */,
 				3D5FDF44212E80FC0086C642 /* IDLogin.storyboard */,
 				3D58559521366F6A007CEEF5 /* IDCommunity.storyboard */,
+				3D9BBD64214218BB00BABB29 /* IDPersonal.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -274,6 +298,7 @@
 				3D58557B2133D08D007CEEF5 /* Main */,
 				3D5FDF46212E92020086C642 /* Login */,
 				3D58559121366EBD007CEEF5 /* Community */,
+				3D9BBD63214217E300BABB29 /* Personal */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -324,6 +349,10 @@
 			children = (
 				3D5FDF37212D481E0086C642 /* XPYHTTPManager.h */,
 				3D5FDF38212D481E0086C642 /* XPYHTTPManager.m */,
+				3DE5316D2147A27300E66502 /* IDUserManager.h */,
+				3DE5316E2147A27300E66502 /* IDUserManager.m */,
+				3DE531702147AC9300E66502 /* XPYFileManager.h */,
+				3DE531712147AC9300E66502 /* XPYFileManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -364,6 +393,31 @@
 				3D9BBD5B213E604700BABB29 /* IDHotArticlesCell.m */,
 				3D9BBD5D213E60BF00BABB29 /* IDSelectQuestionsCell.h */,
 				3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */,
+				3DE5316A2147664200E66502 /* IDCommunitySearchView.h */,
+				3DE5316B2147664200E66502 /* IDCommunitySearchView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D9BBD63214217E300BABB29 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				3DE5316021464E1900E66502 /* Views */,
+				3DE5315A21461B8100E66502 /* IDHomepagePersonalNavigationController.h */,
+				3DE5315B21461B8100E66502 /* IDHomepagePersonalNavigationController.m */,
+				3DE53168214659CB00E66502 /* IDHomepagePersonalViewController.h */,
+				3DE53167214659CB00E66502 /* IDHomepagePersonalViewController.m */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		3DE5316021464E1900E66502 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DE531732148B5CE00E66502 /* IDPersonalHeaderView.h */,
+				3DE531742148B5CE00E66502 /* IDPersonalHeaderView.m */,
+				3DE531762148B82300E66502 /* IDPersonalAdditionButton.h */,
+				3DE531772148B82300E66502 /* IDPersonalAdditionButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -493,6 +547,7 @@
 				3D5FDF052123BCF60086C642 /* LaunchScreen.storyboard in Resources */,
 				3D58559621366F6A007CEEF5 /* IDCommunity.storyboard in Resources */,
 				3D5FDF2C2123C49C0086C642 /* Localizable.strings in Resources */,
+				3D9BBD65214218BB00BABB29 /* IDPersonal.storyboard in Resources */,
 				3D5FDF022123BCF60086C642 /* Assets.xcassets in Resources */,
 				3D5FDF45212E80FC0086C642 /* IDLogin.storyboard in Resources */,
 			);
@@ -560,11 +615,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE531722147AC9300E66502 /* XPYFileManager.m in Sources */,
 				3D08A61B2137831C00234571 /* IDFillOtherInformationViewController.m in Sources */,
 				3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */,
 				3D5FDF3C212D567D0086C642 /* XPYBaseRequest.m in Sources */,
 				3D9BBD5F213E60BF00BABB29 /* IDSelectQuestionsCell.m in Sources */,
 				3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */,
+				3DE531752148B5CE00E66502 /* IDPersonalHeaderView.m in Sources */,
 				3D08A62121378CFE00234571 /* IDUserModel.m in Sources */,
 				3D9BBD5C213E604700BABB29 /* IDHotArticlesCell.m in Sources */,
 				3D58559421366F41007CEEF5 /* IDHomepageCommunityViewController.m in Sources */,
@@ -573,16 +630,21 @@
 				3D58558A21351FB9007CEEF5 /* IDBindCaptchaViewController.m in Sources */,
 				3D5855832134ECD2007CEEF5 /* IDBindMobileViewModel.m in Sources */,
 				3D58557A2133CE75007CEEF5 /* IDMobileBindViewController.m in Sources */,
+				3DE5315C21461B8100E66502 /* IDHomepagePersonalNavigationController.m in Sources */,
 				3D5FDF39212D481E0086C642 /* XPYHTTPManager.m in Sources */,
 				3D5FDF082123BCF60086C642 /* main.m in Sources */,
 				3D5FDF4D212EA2C60086C642 /* IDLoginViewModel.m in Sources */,
+				3DE53169214659CB00E66502 /* IDHomepagePersonalViewController.m in Sources */,
 				3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */,
 				3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */,
 				3D585590213647A9007CEEF5 /* IDFillInformationViewController.m in Sources */,
+				3DE5316F2147A27300E66502 /* IDUserManager.m in Sources */,
 				3D5FDF36212CFB380086C642 /* XPYBaseModel.m in Sources */,
 				3D5FDF42212D5B310086C642 /* XPYCommonDefines.m in Sources */,
 				3D5FDEFA2123BCF40086C642 /* AppDelegate.m in Sources */,
 				3D58558D21352757007CEEF5 /* IDBindCaptchaViewModel.m in Sources */,
+				3DE5316C2147664200E66502 /* IDCommunitySearchView.m in Sources */,
+				3DE531782148B82300E66502 /* IDPersonalAdditionButton.m in Sources */,
 				3D9BBD59213E2F8B00BABB29 /* IDCommunityTableHeaderView.m in Sources */,
 				3D5FDF49212E9CD50086C642 /* IDLoginViewController.m in Sources */,
 				3D58557E2133D147007CEEF5 /* IDMainTabBarController.m in Sources */,

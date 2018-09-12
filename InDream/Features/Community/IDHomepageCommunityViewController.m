@@ -11,6 +11,7 @@
 #import "IDSelectQuestionsCell.h"
 #import "IDCommunityTableHeaderView.h"
 #import "IDCommunityHeaderCollectionViewCell.h"
+#import "IDCommunitySearchView.h"
 
 #import <UIImage+YYWebImage.h>
 
@@ -26,6 +27,7 @@ static CGFloat const kIDSelectQuestionCellHeight = 130.f;
 @property (weak, nonatomic) IBOutlet UIButton *followingButton;
 @property (weak, nonatomic) IBOutlet UIView *topSegView;
 @property (nonatomic, strong) UIImageView *tipImageView;
+@property (nonatomic, strong) IDCommunitySearchView *searchView;
 
 @end
 
@@ -34,6 +36,7 @@ static CGFloat const kIDSelectQuestionCellHeight = 130.f;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self initializeSearchView];
     [self initializeSlideView];
 }
 
@@ -43,6 +46,11 @@ static CGFloat const kIDSelectQuestionCellHeight = 130.f;
 }
 
 #pragma mark - Setup
+- (void)initializeSearchView {
+    self.navigationItem.titleView = self.searchView;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(searchTap:)];
+    [self.searchView addGestureRecognizer:tap];
+}
 - (void)initializeSlideView {
     [self.navigationController.navigationBar setShadowImage:[UIImage new]];
     [self.topSegView addSubview:self.tipImageView];
@@ -77,6 +85,9 @@ static CGFloat const kIDSelectQuestionCellHeight = 130.f;
         [self updateTipConstraints:kIDTipChangedLeadingWidth];
         [self.mainScrollView setContentOffset:CGPointMake(XPYScreenWidth, 0) animated:YES];
     }
+}
+- (void)searchTap:(UITapGestureRecognizer *)recognizer {
+    
 }
 
 #pragma mark - Table view data source
@@ -168,8 +179,14 @@ static CGFloat const kIDSelectQuestionCellHeight = 130.f;
 - (UIImageView *)tipImageView {
     if (!_tipImageView) {
         _tipImageView = [[UIImageView alloc] init];
-        _tipImageView.backgroundColor = XPYColorWithHexString(@"oD0606");
+        _tipImageView.backgroundColor = XPYColorWithHexString(@"OD0606");
     }
     return _tipImageView;
+}
+- (IDCommunitySearchView *)searchView {
+    if (!_searchView) {
+        _searchView = [[IDCommunitySearchView alloc] initWithFrame:CGRectMake(0, 0, XPYScreenWidth - 32, 34)];
+    }
+    return _searchView;
 }
 @end

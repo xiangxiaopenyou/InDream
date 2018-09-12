@@ -120,6 +120,11 @@
 #define XPYFontOfSizeWithWeight(aSize, aWeight) [UIFont systemFontOfSize:aSize weight:aWeight]
 
 /**
+ App DocumentDirectory文件夹路径
+ */
+#define XPYDocumentDirectory [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+
+/**
  判断空值
 
  @param anObject 传入值

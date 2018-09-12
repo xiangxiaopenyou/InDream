@@ -81,7 +81,7 @@
         _moreButton.frame = CGRectMake(CGRectGetWidth(self.bounds) - 100, 20, 100, 30);
         [_moreButton setTitle:XPYLocalizedString(@"community_more") forState:UIControlStateNormal];
         _moreButton.titleLabel.font = XPYSystemFontOfSize(11);
-        [_moreButton setTitleColor:XPYColorWithHexString(@"999999") forState:UIControlStateNormal];
+        [_moreButton setTitleColor:IDTintTextColor forState:UIControlStateNormal];
         [_moreButton addTarget:self action:@selector(moreAction:) forControlEvents:UIControlEventTouchUpInside];
         
     }
