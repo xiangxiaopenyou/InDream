@@ -36,6 +36,7 @@
     
     UIViewController *hypnoticController = [[UIViewController alloc] init];
     hypnoticController.title = XPYLocalizedString(@"tabbar_hypnotic");
+    
     //我的
     IDHomepagePersonalViewController *personalController = XPYViewControllerWithStoryboard(@"IDPersonal", @"IDHomepagePersonal");
     personalController.title = XPYLocalizedString(@"tabbar_personal");

@@ -19,7 +19,7 @@
         [self addSubview:self.itemQuantityLabel];
         [self addSubview:self.itemNameLabel];
         [self.itemQuantityLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.centerY.equalTo(self).with.mas_offset(- 30);
+            make.centerY.equalTo(self).with.mas_offset(- 10);
             make.centerX.equalTo(self);
         }];
         [self.itemNameLabel mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -9,6 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "XPYFileManager.h"
 
+#pragma mark - 枚举
+typedef NS_ENUM(NSInteger, IDPickerImageType) {
+    IDPickerImageTypeSingle,
+    IDPickerImageTypeMultiple
+};
+typedef NS_ENUM(NSInteger, IDImagePickerSourceType) {
+    IDImagePickerSourceTypeLibrary,
+    IDImagePickerSourceTypeCamera
+};
+
 #pragma mark - 应用相关
 //微信key
 extern NSString * const IDWeChatKey;
@@ -21,6 +31,8 @@ extern NSUInteger const IDCaptchaFetchMaxtime;
 extern NSUInteger const IDCaptchaLength;
 //社区scrollView tag
 extern NSUInteger const IDCommunityScrollViewTag;
+//相册多选最大照片数量
+extern NSUInteger const IDPickImagesMaxAmount;
 
 #pragma mark - Notification key
 extern NSString * const IDChangeRootControllerNotificationKey;

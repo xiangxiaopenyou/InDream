@@ -28,5 +28,14 @@
 "personal_followers" = "粉丝";
 "personal_attention" = "关注";
 "personal_points" = "积分";
+"personal_function_creations" = "我的创作";
+"personal_function_messages" = "我的消息";
+"personal_function_evaluation" = "我的评估";
+"personal_function_browse_records" = "浏览足迹";
+"personal_function_collections" = "我的收藏";
+"personal_function_device_binding" = "设备绑定";
+"personal_function_mall" = "商城";
+"personal_function_settings" = "设置";
+"personal_function_feedback" = "帮助反馈";
 
 

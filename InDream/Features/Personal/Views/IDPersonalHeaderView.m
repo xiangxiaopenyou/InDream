@@ -24,6 +24,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor whiteColor];
         [self initializeSubviews];
     }
     return self;
@@ -39,7 +40,8 @@
     [self addSubview:self.avatarImageView];
     [self.avatarImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self);
-        make.centerY.equalTo(self).with.mas_offset(- 40);
+        make.size.mas_offset(CGSizeMake(56, 56));
+        make.centerY.equalTo(self).with.mas_offset(- 30);
     }];
     
     [self addSubview:self.nicknameLabel];
@@ -52,7 +54,7 @@
     [self.otherView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self);
         make.centerX.equalTo(self);
-        make.height.mas_offset(35.f);
+        make.height.mas_offset(70.f);
         make.width.equalTo(self).multipliedBy(0.91);
     }];
     
@@ -106,6 +108,7 @@
         _backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
         _backgroundImageView.clipsToBounds = YES;
         _backgroundImageView.image = [UIImage new];
+        _backgroundImageView.backgroundColor = [UIColor redColor];
     }
     return _backgroundImageView;
 }
@@ -115,6 +118,7 @@
         _avatarImageView = [[UIImageView alloc] init];
         _avatarImageView.layer.masksToBounds = YES;
         _avatarImageView.layer.cornerRadius = 8.f;
+        _avatarImageView.backgroundColor = [UIColor blackColor];
     }
     return _avatarImageView;
 }
@@ -124,6 +128,7 @@
         _nicknameLabel = [[UILabel alloc] init];
         _nicknameLabel.font = XPYFontOfSizeWithWeight(15, UIFontWeightMedium);
         _nicknameLabel.textColor = [UIColor colorWithWhite:1 alpha:0.87];
+        _nicknameLabel.text = @"项小盆友";
     }
     return _nicknameLabel;
 }
@@ -131,7 +136,7 @@
 {
     if (!_otherView) {
         _otherView = [[UIView alloc] init];
-        _otherView.backgroundColor = [UIColor clearColor];
+        _otherView.backgroundColor = [UIColor grayColor];
     }
     return _otherView;
 }

@@ -49,6 +49,8 @@
 		3DE531722147AC9300E66502 /* XPYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE531712147AC9300E66502 /* XPYFileManager.m */; };
 		3DE531752148B5CE00E66502 /* IDPersonalHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE531742148B5CE00E66502 /* IDPersonalHeaderView.m */; };
 		3DE531782148B82300E66502 /* IDPersonalAdditionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE531772148B82300E66502 /* IDPersonalAdditionButton.m */; };
+		3DE5317B2149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5317A2149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.m */; };
+		3DE5317E214A4CE200E66502 /* IDPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5317D214A4CE200E66502 /* IDPhotoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,10 @@
 		3DE531742148B5CE00E66502 /* IDPersonalHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPersonalHeaderView.m; sourceTree = "<group>"; };
 		3DE531762148B82300E66502 /* IDPersonalAdditionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPersonalAdditionButton.h; sourceTree = "<group>"; };
 		3DE531772148B82300E66502 /* IDPersonalAdditionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPersonalAdditionButton.m; sourceTree = "<group>"; };
+		3DE531792149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPersonalFunctionsCollectionViewCell.h; sourceTree = "<group>"; };
+		3DE5317A2149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPersonalFunctionsCollectionViewCell.m; sourceTree = "<group>"; };
+		3DE5317C214A4CE200E66502 /* IDPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPhotoManager.h; sourceTree = "<group>"; };
+		3DE5317D214A4CE200E66502 /* IDPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDPhotoManager.m; sourceTree = "<group>"; };
 		650D3FE8FF1B768E8945794C /* Pods-InDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.release.xcconfig"; sourceTree = "<group>"; };
 		905A930E07443F77AA8D7379 /* Pods-InDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InDream/Pods-InDream.debug.xcconfig"; sourceTree = "<group>"; };
 		B3B5544948C1ED93CB4754D9 /* libPods-InDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -353,6 +359,8 @@
 				3DE5316E2147A27300E66502 /* IDUserManager.m */,
 				3DE531702147AC9300E66502 /* XPYFileManager.h */,
 				3DE531712147AC9300E66502 /* XPYFileManager.m */,
+				3DE5317C214A4CE200E66502 /* IDPhotoManager.h */,
+				3DE5317D214A4CE200E66502 /* IDPhotoManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -418,6 +426,8 @@
 				3DE531742148B5CE00E66502 /* IDPersonalHeaderView.m */,
 				3DE531762148B82300E66502 /* IDPersonalAdditionButton.h */,
 				3DE531772148B82300E66502 /* IDPersonalAdditionButton.m */,
+				3DE531792149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.h */,
+				3DE5317A2149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -579,11 +589,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-InDream/Pods-InDream-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -635,7 +647,9 @@
 				3D5FDF082123BCF60086C642 /* main.m in Sources */,
 				3D5FDF4D212EA2C60086C642 /* IDLoginViewModel.m in Sources */,
 				3DE53169214659CB00E66502 /* IDHomepagePersonalViewController.m in Sources */,
+				3DE5317E214A4CE200E66502 /* IDPhotoManager.m in Sources */,
 				3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */,
+				3DE5317B2149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.m in Sources */,
 				3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */,
 				3D585590213647A9007CEEF5 /* IDFillInformationViewController.m in Sources */,
 				3DE5316F2147A27300E66502 /* IDUserManager.m in Sources */,
