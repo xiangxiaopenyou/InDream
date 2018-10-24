@@ -11,6 +11,8 @@
 		3D08A61B2137831C00234571 /* IDFillOtherInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D08A61A2137831C00234571 /* IDFillOtherInformationViewController.m */; };
 		3D08A61E213785F700234571 /* IDFillInformationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D08A61D213785F700234571 /* IDFillInformationViewModel.m */; };
 		3D08A62121378CFE00234571 /* IDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D08A62021378CFE00234571 /* IDUserModel.m */; };
+		3D2E2B50217DADE400FD76CA /* UINavigationItem+XPYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E2B4F217DADE400FD76CA /* UINavigationItem+XPYSwizzling.m */; };
+		3D2E2B53217DB55100FD76CA /* NSObject+XPYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E2B52217DB55100FD76CA /* NSObject+XPYSwizzling.m */; };
 		3D58557A2133CE75007CEEF5 /* IDMobileBindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5855792133CE75007CEEF5 /* IDMobileBindViewController.m */; };
 		3D58557E2133D147007CEEF5 /* IDMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58557D2133D147007CEEF5 /* IDMainTabBarController.m */; };
 		3D5855832134ECD2007CEEF5 /* IDBindMobileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5855822134ECD2007CEEF5 /* IDBindMobileViewModel.m */; };
@@ -36,6 +38,7 @@
 		3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF50212EB7E30086C642 /* XPYUtilities.m */; };
 		3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF53212EBBDD0086C642 /* IDConstant.m */; };
 		3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF5A212FEEB70086C642 /* AppDelegate+Configurations.m */; };
+		3D879746217EB412007282C1 /* UIViewController+XPYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D879745217EB412007282C1 /* UIViewController+XPYSwizzling.m */; };
 		3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */; };
 		3D9BBD59213E2F8B00BABB29 /* IDCommunityTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD58213E2F8B00BABB29 /* IDCommunityTableHeaderView.m */; };
 		3D9BBD5C213E604700BABB29 /* IDHotArticlesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD5B213E604700BABB29 /* IDHotArticlesCell.m */; };
@@ -77,6 +80,10 @@
 		3D08A61D213785F700234571 /* IDFillInformationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillInformationViewModel.m; sourceTree = "<group>"; };
 		3D08A61F21378CFE00234571 /* IDUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDUserModel.h; sourceTree = "<group>"; };
 		3D08A62021378CFE00234571 /* IDUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDUserModel.m; sourceTree = "<group>"; };
+		3D2E2B4E217DADE400FD76CA /* UINavigationItem+XPYSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+XPYSwizzling.h"; sourceTree = "<group>"; };
+		3D2E2B4F217DADE400FD76CA /* UINavigationItem+XPYSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+XPYSwizzling.m"; sourceTree = "<group>"; };
+		3D2E2B51217DB55100FD76CA /* NSObject+XPYSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XPYSwizzling.h"; sourceTree = "<group>"; };
+		3D2E2B52217DB55100FD76CA /* NSObject+XPYSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XPYSwizzling.m"; sourceTree = "<group>"; };
 		3D5855782133CE75007CEEF5 /* IDMobileBindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMobileBindViewController.h; sourceTree = "<group>"; };
 		3D5855792133CE75007CEEF5 /* IDMobileBindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDMobileBindViewController.m; sourceTree = "<group>"; };
 		3D58557C2133D147007CEEF5 /* IDMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMainTabBarController.h; sourceTree = "<group>"; };
@@ -127,6 +134,8 @@
 		3D5FDF53212EBBDD0086C642 /* IDConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDConstant.m; sourceTree = "<group>"; };
 		3D5FDF59212FEEB70086C642 /* AppDelegate+Configurations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Configurations.h"; sourceTree = "<group>"; };
 		3D5FDF5A212FEEB70086C642 /* AppDelegate+Configurations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Configurations.m"; sourceTree = "<group>"; };
+		3D879744217EB412007282C1 /* UIViewController+XPYSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XPYSwizzling.h"; sourceTree = "<group>"; };
+		3D879745217EB412007282C1 /* UIViewController+XPYSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XPYSwizzling.m"; sourceTree = "<group>"; };
 		3D9BBD2321390CED00BABB29 /* IDFillOtherInformationViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDFillOtherInformationViewModel.h; sourceTree = "<group>"; };
 		3D9BBD2421390CED00BABB29 /* IDFillOtherInformationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDFillOtherInformationViewModel.m; sourceTree = "<group>"; };
 		3D9BBD57213E2F8B00BABB29 /* IDCommunityTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCommunityTableHeaderView.h; sourceTree = "<group>"; };
@@ -187,6 +196,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2E2B4D217DAD4E00FD76CA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3D2E2B51217DB55100FD76CA /* NSObject+XPYSwizzling.h */,
+				3D2E2B52217DB55100FD76CA /* NSObject+XPYSwizzling.m */,
+				3D2E2B4E217DADE400FD76CA /* UINavigationItem+XPYSwizzling.h */,
+				3D2E2B4F217DADE400FD76CA /* UINavigationItem+XPYSwizzling.m */,
+				3D879744217EB412007282C1 /* UIViewController+XPYSwizzling.h */,
+				3D879745217EB412007282C1 /* UIViewController+XPYSwizzling.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		3D58557B2133D08D007CEEF5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +354,7 @@
 		3D5FDF30212CF5DC0086C642 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				3D2E2B4D217DAD4E00FD76CA /* Category */,
 				3D5FDF4F212EB7E30086C642 /* XPYUtilities.h */,
 				3D5FDF50212EB7E30086C642 /* XPYUtilities.m */,
 				3D5FDF4E212EB7E30086C642 /* XPYUtilitiesDefine.h */,
@@ -631,6 +654,7 @@
 				3D08A61B2137831C00234571 /* IDFillOtherInformationViewController.m in Sources */,
 				3D5FDF51212EB7E30086C642 /* XPYUtilities.m in Sources */,
 				3D5FDF3C212D567D0086C642 /* XPYBaseRequest.m in Sources */,
+				3D2E2B50217DADE400FD76CA /* UINavigationItem+XPYSwizzling.m in Sources */,
 				3D9BBD5F213E60BF00BABB29 /* IDSelectQuestionsCell.m in Sources */,
 				3D5FDF5B212FEEB70086C642 /* AppDelegate+Configurations.m in Sources */,
 				3DE531752148B5CE00E66502 /* IDPersonalHeaderView.m in Sources */,
@@ -648,6 +672,7 @@
 				3D5FDF4D212EA2C60086C642 /* IDLoginViewModel.m in Sources */,
 				3DE53169214659CB00E66502 /* IDHomepagePersonalViewController.m in Sources */,
 				3DE5317E214A4CE200E66502 /* IDPhotoManager.m in Sources */,
+				3D2E2B53217DB55100FD76CA /* NSObject+XPYSwizzling.m in Sources */,
 				3D5FDF54212EBBDD0086C642 /* IDConstant.m in Sources */,
 				3DE5317B2149FCAD00E66502 /* IDPersonalFunctionsCollectionViewCell.m in Sources */,
 				3D9BBD2521390CED00BABB29 /* IDFillOtherInformationViewModel.m in Sources */,
@@ -659,6 +684,7 @@
 				3D58558D21352757007CEEF5 /* IDBindCaptchaViewModel.m in Sources */,
 				3DE5316C2147664200E66502 /* IDCommunitySearchView.m in Sources */,
 				3DE531782148B82300E66502 /* IDPersonalAdditionButton.m in Sources */,
+				3D879746217EB412007282C1 /* UIViewController+XPYSwizzling.m in Sources */,
 				3D9BBD59213E2F8B00BABB29 /* IDCommunityTableHeaderView.m in Sources */,
 				3D5FDF49212E9CD50086C642 /* IDLoginViewController.m in Sources */,
 				3D58557E2133D147007CEEF5 /* IDMainTabBarController.m in Sources */,
