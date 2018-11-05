@@ -8,7 +8,7 @@
 
 #import "IDMainTabBarController.h"
 #import "IDHomepageCommunityViewController.h"
-#import "IDHomepagePersonalViewController.h"
+#import "IDHomepagePersonalController.h"
 #import "IDHomepagePersonalNavigationController.h"
 
 @interface IDMainTabBarController ()
@@ -38,7 +38,7 @@
     hypnoticController.title = XPYLocalizedString(@"tabbar_hypnotic");
     
     //我的
-    IDHomepagePersonalViewController *personalController = XPYViewControllerWithStoryboard(@"IDPersonal", @"IDHomepagePersonal");
+    IDHomepagePersonalController *personalController = XPYViewControllerWithStoryboard(@"IDPersonal", @"IDHomepagePersonalVC");
     personalController.title = XPYLocalizedString(@"tabbar_personal");
     IDHomepagePersonalNavigationController *personalNavigationController = [[IDHomepagePersonalNavigationController alloc] initWithRootViewController:personalController];
     self.viewControllers = @[communityNavigationController, hypnoticController, personalNavigationController];

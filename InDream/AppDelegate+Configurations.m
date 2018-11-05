@@ -17,6 +17,8 @@
     [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage yy_imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : XPYColorWithHexString(@"0D0606")} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : XPYColorWithHexString(@"8E8E93")} forState:UIControlStateNormal];
 }
 
 @end

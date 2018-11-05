@@ -45,6 +45,7 @@
 		3D9BBD5F213E60BF00BABB29 /* IDSelectQuestionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD5E213E60BF00BABB29 /* IDSelectQuestionsCell.m */; };
 		3D9BBD62213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */; };
 		3D9BBD65214218BB00BABB29 /* IDPersonal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BBD64214218BB00BABB29 /* IDPersonal.storyboard */; };
+		3DD849DB2182A99200072222 /* IDHomepagePersonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD849DA2182A99200072222 /* IDHomepagePersonalController.m */; };
 		3DE5315C21461B8100E66502 /* IDHomepagePersonalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5315B21461B8100E66502 /* IDHomepagePersonalNavigationController.m */; };
 		3DE53169214659CB00E66502 /* IDHomepagePersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE53167214659CB00E66502 /* IDHomepagePersonalViewController.m */; };
 		3DE5316C2147664200E66502 /* IDCommunitySearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5316B2147664200E66502 /* IDCommunitySearchView.m */; };
@@ -147,6 +148,8 @@
 		3D9BBD60213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCommunityHeaderCollectionViewCell.h; sourceTree = "<group>"; };
 		3D9BBD61213E7EDE00BABB29 /* IDCommunityHeaderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCommunityHeaderCollectionViewCell.m; sourceTree = "<group>"; };
 		3D9BBD64214218BB00BABB29 /* IDPersonal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IDPersonal.storyboard; sourceTree = "<group>"; };
+		3DD849D92182A99200072222 /* IDHomepagePersonalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDHomepagePersonalController.h; sourceTree = "<group>"; };
+		3DD849DA2182A99200072222 /* IDHomepagePersonalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDHomepagePersonalController.m; sourceTree = "<group>"; };
 		3DE5315A21461B8100E66502 /* IDHomepagePersonalNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDHomepagePersonalNavigationController.h; sourceTree = "<group>"; };
 		3DE5315B21461B8100E66502 /* IDHomepagePersonalNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDHomepagePersonalNavigationController.m; sourceTree = "<group>"; };
 		3DE53167214659CB00E66502 /* IDHomepagePersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDHomepagePersonalViewController.m; sourceTree = "<group>"; };
@@ -438,6 +441,8 @@
 				3DE5315B21461B8100E66502 /* IDHomepagePersonalNavigationController.m */,
 				3DE53168214659CB00E66502 /* IDHomepagePersonalViewController.h */,
 				3DE53167214659CB00E66502 /* IDHomepagePersonalViewController.m */,
+				3DD849D92182A99200072222 /* IDHomepagePersonalController.h */,
+				3DD849DA2182A99200072222 /* IDHomepagePersonalController.m */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -666,6 +671,7 @@
 				3D58558A21351FB9007CEEF5 /* IDBindCaptchaViewController.m in Sources */,
 				3D5855832134ECD2007CEEF5 /* IDBindMobileViewModel.m in Sources */,
 				3D58557A2133CE75007CEEF5 /* IDMobileBindViewController.m in Sources */,
+				3DD849DB2182A99200072222 /* IDHomepagePersonalController.m in Sources */,
 				3DE5315C21461B8100E66502 /* IDHomepagePersonalNavigationController.m in Sources */,
 				3D5FDF39212D481E0086C642 /* XPYHTTPManager.m in Sources */,
 				3D5FDF082123BCF60086C642 /* main.m in Sources */,

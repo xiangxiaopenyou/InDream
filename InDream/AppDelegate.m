@@ -63,11 +63,11 @@
     if ([notification.object boolValue]) {
         
     } else {
-        IDLoginViewController *loginViewController = XPYViewControllerWithStoryboard(@"IDLogin", @"IDLogin");
-        self.window.rootViewController = loginViewController;
+//        IDLoginViewController *loginViewController = XPYViewControllerWithStoryboard(@"IDLogin", @"IDLogin");
+//        self.window.rootViewController = loginViewController;
         
-//        IDMainTabBarController *tabBarController = [[IDMainTabBarController alloc] init];
-//        self.window.rootViewController = tabBarController;
+        IDMainTabBarController *tabBarController = [[IDMainTabBarController alloc] init];
+        self.window.rootViewController = tabBarController;
     }
 }
 
