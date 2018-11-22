@@ -7,8 +7,13 @@
 //
 
 #import "AFHTTPSessionManager.h"
+#import "XPYBaseResponse.h"
+
+typedef void(^XPYResultHander)(XPYBaseResponse *response);
 
 @interface XPYHTTPManager : AFHTTPSessionManager
 + (instancetype)sharedManager;
+
+- (void)post:(NSString *)urlString parameters:(id)params completion:(XPYResultHander)result;
 
 @end

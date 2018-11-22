@@ -101,7 +101,7 @@ static CGFloat const kIDPersonalHeaderViewHeight = 260.f;
                                                     XPYLocalizedString(@"personal_function_device_binding"),
                                                     XPYLocalizedString(@"personal_function_mall"),
                                                     XPYLocalizedString(@"personal_function_settings"),
-                                                    XPYLocalizedString(@"personal_function_feedback") ,
+                                                    XPYLocalizedString(@"personal_function_feedback"),
                                                     nil];
     }
     return _functionsArray;
