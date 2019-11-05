@@ -11,6 +11,8 @@
 #import "IDLoginViewController.h"
 #import "IDMainTabBarController.h"
 
+#import "XPYBaseModel.h"
+
 @interface AppDelegate ()
 
 @end

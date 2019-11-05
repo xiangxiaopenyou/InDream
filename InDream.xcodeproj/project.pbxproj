@@ -276,7 +276,6 @@
 		3D5FDEF72123BCF40086C642 /* InDream */ = {
 			isa = PBXGroup;
 			children = (
-				3D5FDF31212CF5E30086C642 /* Vendor */,
 				3D5FDF30212CF5DC0086C642 /* Commons */,
 				3D5FDF32212CF7470086C642 /* Manager */,
 				3D5FDF2F212CF5CE0086C642 /* Network */,
@@ -374,13 +373,6 @@
 				3D5FDF53212EBBDD0086C642 /* IDConstant.m */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		3D5FDF31212CF5E30086C642 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendor;
 			sourceTree = "<group>";
 		};
 		3D5FDF32212CF7470086C642 /* Manager */ = {
@@ -619,7 +611,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-InDream/Pods-InDream-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-InDream/Pods-InDream-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
@@ -632,7 +624,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InDream/Pods-InDream-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InDream/Pods-InDream-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E247873DA3EE1B5FA30CFC25 /* [CP] Check Pods Manifest.lock */ = {
